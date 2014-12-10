@@ -82,7 +82,8 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\jasmine\lib\jasmine-2.1.0\jasmine-jquery.js" />
     <Content Include="Scripts\comhar-namespacing.js" />
-    <Content Include="chart-modules.js" />
+    <Content Include="stylesheets\dx-common.css" />
+    <Content Include="stylesheets\dx-light.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\CLogo.png" />
