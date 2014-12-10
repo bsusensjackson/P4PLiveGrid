@@ -101,7 +101,6 @@ var highCharts = {
 },
 
 tcmChart0201: function (container, summaryData) {
-    console.log(summaryData)
   container.highcharts({
     chart: {
       type: 'gauge',
@@ -413,7 +412,6 @@ $(function () {
 
 
   $.getJSON(summaryUrl, function(summaryData) {
-  console.log(summaryData)
     $('#tcm-01-01').on('click', function(){
       setTimeout(function(){ //Delay until chart container is visible in DOM. 
         dxChart.tcmChart01($('#chart2-TCM-01-01'), summaryData)
@@ -423,7 +421,6 @@ $(function () {
     });
 
     $('#tcm-02-01').click(function() {
-    console.log('yolo')
       highCharts.tcmChart0201($('#chart-TCM-02-01'), summaryData);
     });
     
