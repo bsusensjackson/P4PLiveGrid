@@ -1,4 +1,4 @@
-var fixDates = function (encounterData) {
+comharApp.fixDates = function (encounterData) {
   betterDates = encounterData.map(function (data) {
     data["EncounterStartDate"] = new Date(data["EncounterStartDate"]);
     data["EncounterEndDate"] = new Date(data["EncounterEndDate"]);
@@ -7,7 +7,7 @@ var fixDates = function (encounterData) {
   return betterDates;
 };
 
- function colorData() {
+comharApp.colorData = function () {
   var $elements = $('.elapsedDays');
   $elements.each(function(){
     if ($(this).text() > 30) {
@@ -19,7 +19,7 @@ var fixDates = function (encounterData) {
   });
 };
 
-var setGrid = function(container) {
+comharApp.setGrid = function(container) {
   container.dxDataGrid({
     dataSource: fixedDataSet,
     columns: [

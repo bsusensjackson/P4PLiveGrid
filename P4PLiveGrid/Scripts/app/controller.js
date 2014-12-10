@@ -1,6 +1,6 @@
-﻿var cormhairApp = angular.module('cormhairApp', []);
+﻿var ComharNGApp = angular.module('ComharNGApp', []);
 
-cormhairApp.controller('cormhairCtrl', ['$scope', '$http',
+ComharNGApp.controller('comharCtrl', ['$scope', '$http',
   function ($scope, $http){
   $http.get('/Scripts/KPIInfo.json').success(function(data) {
     $scope.data = angular.fromJson(data);
@@ -8,7 +8,7 @@ cormhairApp.controller('cormhairCtrl', ['$scope', '$http',
 }]);
 
 
-angular.module('cormhairApp').directive('jqueryCreate', function() {
+angular.module('ComharNGApp').directive('jqueryCreate', function() {
  return {
  link: function($scope, $element, $attr) {
     $element.parent().trigger('create');

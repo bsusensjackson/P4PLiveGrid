@@ -62,9 +62,7 @@
     <Content Include="Scripts\adapters\.DS_Store" />
     <Content Include="Scripts\devExGauge.js" />
     <Content Include="Scripts\encounterDetail.js" />
-    <Content Include="Scripts\excellentexport.js" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
-    <Content Include="Scripts\jquery.csv-0.71.js" />
     <Content Include="Scripts\jquery.mobile-1.4.2.min.map" />
     <Content Include="Scripts\json2csv.js" />
     <Content Include="Scripts\modules\.DS_Store" />
@@ -79,6 +77,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Scripts\app\controller.js" />
+    <Content Include="Scripts\jasmine\spec\DashboardSpec.js" />
+    <Content Include="Scripts\jasmine\spec\CormhairAppSpec.js" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\jasmine\lib\jasmine-2.1.0\jasmine-jquery.js" />
+    <Content Include="Scripts\comhar-namespacing.js" />
+    <Content Include="chart-modules.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\CLogo.png" />
@@ -86,21 +90,9 @@
     <Content Include="Scripts\adapters\standalone-framework.js" />
     <Content Include="Scripts\adapters\standalone-framework.src.js" />
     <Content Include="Scripts\addDataGrid.js" />
-    <Content Include="Scripts\Comhar-ajaxUtility-1.0.0.js" />
-    <Content Include="Scripts\Comhar-dashboard-charting-1.0.0.js" />
-    <Content Include="Scripts\Comhar-dashboard-data-1.0.0.js" />
-    <Content Include="Scripts\Comhar-dashboard-dataMock-1.0.0.js" />
-    <Content Include="Scripts\Comhar-dataGridAjax-1.0.0.js" />
-    <Content Include="Scripts\Comhar-dataGridBasic-1.0.0.js" />
-    <Content Include="Scripts\Comhar-main-1.0.1.js" />
-    <Content Include="Scripts\Comhar-namespaces-1.0.0.js" />
     <Content Include="Scripts\dashboard-1.0.0.js" />
-    <Content Include="Scripts\dashboardApi-1.0.0.js" />
     <Content Include="Scripts\dataGrid.js" />
-    <Content Include="Scripts\demo.js" />
     <Content Include="Scripts\dxAll.js" />
-    <Content Include="Scripts\highcharts-3d.js" />
-    <Content Include="Scripts\highcharts-3d.src.js" />
     <Content Include="Scripts\highcharts-all.js" />
     <Content Include="Scripts\highcharts-more.js" />
     <Content Include="Scripts\highcharts-more.src.js" />
@@ -109,22 +101,8 @@
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
-    <Content Include="Scripts\jquery-ui-1.10.4.js" />
-    <Content Include="Scripts\jquery-ui-1.10.4.min.js" />
     <Content Include="Scripts\jquery.mobile-1.4.2.js" />
     <Content Include="Scripts\jquery.mobile-1.4.2.min.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-3.1.0.debug.js" />
-    <Content Include="Scripts\knockout-3.1.0.js" />
-    <Content Include="Scripts\knockout.mapping-latest.debug.js" />
-    <Content Include="Scripts\knockout.mapping-latest.js" />
-    <Content Include="Scripts\modernizr-2.7.2.js" />
     <Content Include="Scripts\modules\canvas-tools.js" />
     <Content Include="Scripts\modules\canvas-tools.src.js" />
     <Content Include="Scripts\modules\data.js" />
@@ -141,7 +119,6 @@
     <Content Include="Scripts\modules\no-data-to-display.src.js" />
     <Content Include="Scripts\modules\solid-gauge.js" />
     <Content Include="Scripts\modules\solid-gauge.src.js" />
-    <Content Include="Scripts\test.js" />
     <Content Include="Scripts\themes\dark-blue.js" />
     <Content Include="Scripts\themes\dark-green.js" />
     <Content Include="Scripts\themes\dark-unica.js" />
@@ -310,7 +287,7 @@
       </FlavorProperties>
     </VisualStudio>
     <MonoDevelop>
-      <Properties VerifyCodeBehindFields="True" VerifyCodeBehindEvents="True">
+      <Properties>
         <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
       </Properties>
     </MonoDevelop>
