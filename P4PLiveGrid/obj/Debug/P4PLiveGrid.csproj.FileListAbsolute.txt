@@ -1,0 +1,6 @@
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\bin\P4PLiveGrid.dll.config
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\bin\P4PLiveGrid.dll
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\bin\P4PLiveGrid.pdb
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\obj\Debug\P4PLiveGrid.csprojResolveAssemblyReference.cache
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\obj\Debug\P4PLiveGrid.dll
+C:\Users\David Karasek\Downloads\P4PLiveGrid\P4PLiveGrid\obj\Debug\P4PLiveGrid.pdb
