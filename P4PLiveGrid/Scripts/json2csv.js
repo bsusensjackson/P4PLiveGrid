@@ -17,10 +17,10 @@ var csvConverter = {
 		array.forEach(function (item, index) {
 			var line = '';
 			for (var index in item) {
-				if (line !== '') { line += ','; }
+			  if (line !== '') { line += ','; }
 				line += item[index];
 			}
-			str += line + '\r\n';
+		  str += line + '\r\n';
 		});
 		return str;
 	}

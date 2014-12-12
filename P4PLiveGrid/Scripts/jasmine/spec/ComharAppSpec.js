@@ -1,8 +1,8 @@
 ﻿// Reference Scripts/app/controller.js
 
-describe('cormhairCtrl', function() {
+describe('comharCtrl', function() {
   var $httpBackend;
-  beforeEach(module('cormhairApp'));
+  beforeEach(module('ComharNGApp'));
 
   var $controller;
 
@@ -18,7 +18,7 @@ describe('cormhairCtrl', function() {
   describe('Loading JSON', function() {
     it('Loads JSON with a Title', function() {
       var $scope = {};
-      var controller = $controller('cormhairCtrl', { $scope : $scope })
+      var controller = $controller('comharCtrl', { $scope : $scope })
       $httpBackend.expectGET('/Scripts/KPIInfo.json').respond({
         "P4PInfoId":1, 
         "ProgramName":"TCM", 

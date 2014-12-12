@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="P4PLiveGrid/Scripts/dashboard-1.0.0.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="P4PLiveGrid/Scripts/jasmine/spec/DashboardSpec.js">
     <Files>
-      <File FileName="P4PLiveGrid/index.html" Line="23" Column="23" />
-      <File FileName="P4PLiveGrid/Scripts/dashboard-1.0.0.js" Line="19" Column="19" />
-      <File FileName="P4PLiveGrid/Scripts/app/controller.js" Line="9" Column="9" />
-      <File FileName="P4PLiveGrid/Scripts/addDataGrid.js" Line="3" Column="3" />
-      <File FileName="P4PLiveGrid/Scripts/comhar-namespacing.js" Line="45" Column="45" />
-      <File FileName="P4PLiveGrid/chart-modules.js" Line="2" Column="2" />
+      <File FileName="P4PLiveGrid/index.html" Line="74" Column="74" />
+      <File FileName="P4PLiveGrid/Scripts/chart-modules.js" Line="2" Column="2" />
       <File FileName="P4PLiveGrid/Scripts/devExGauge.js" Line="1" Column="1" />
+      <File FileName="P4PLiveGrid/Scripts/highcharts.src.js" Line="1" Column="1" />
+      <File FileName="P4PLiveGrid/Scripts/json2csv.js" Line="5" Column="5" />
+      <File FileName="P4PLiveGrid/Scripts/jasmine/SpecRunner.html" Line="41" Column="41" />
+      <File FileName="P4PLiveGrid/Scripts/jasmine/spec/DashboardSpec.js" Line="11" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

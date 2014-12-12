@@ -61,8 +61,8 @@ $(function () {
     $('#download-CSV').click(function(){
       var jsonString = JSON.stringify(encounterData);
       var csvString = csvConverter.convertCSV(jsonString);
-      if (Object.hasOwnProperty.call(window, "ActiveXObject") && !window.ActiveXObject) {
-          //if Client is IE11
+      if (Object.hasOwnProperty.call(window, "ActiveXObject") && !window.ActiveXObject) {  // Determine if client is IE11
+         
         var blob = new Blob([csvString],{
         type: "text/csv;charset=utf-8;"
         });

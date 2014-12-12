@@ -1,4 +1,4 @@
-var dxChart = {
+comharApp.dxChart = {
   tcmChart01 : function (container, summaryData) {
     container.dxCircularGauge({
       scale: {
