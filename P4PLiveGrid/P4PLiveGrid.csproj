@@ -59,7 +59,6 @@
     <Content Include="index.html" />
     <Content Include="index2.html" />
     <Content Include="index2old.html" />
-    <Content Include="Scripts\adapters\.DS_Store" />
     <Content Include="Scripts\devExGauge.js" />
     <Content Include="Scripts\encounterDetail.js" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
@@ -90,8 +89,6 @@
   <ItemGroup>
     <Content Include="images\CLogo.png" />
     <Content Include="indexold.html" />
-    <Content Include="Scripts\adapters\standalone-framework.js" />
-    <Content Include="Scripts\adapters\standalone-framework.src.js" />
     <Content Include="Scripts\addDataGrid.js" />
     <Content Include="Scripts\dashboard-1.0.0.js" />
     <Content Include="Scripts\dataGrid.js" />
@@ -302,7 +299,6 @@
   </Target>
   -->
   <ItemGroup>
-    <Folder Include="Scripts\adapters\New Folder\" />
     <Folder Include="Scripts\app\" />
   </ItemGroup>
 </Project>

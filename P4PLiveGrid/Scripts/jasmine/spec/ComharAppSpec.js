@@ -19,7 +19,7 @@ describe('comharCtrl', function() {
     it('Loads JSON with a Title', function() {
       var $scope = {};
       var controller = $controller('comharCtrl', { $scope : $scope })
-      $httpBackend.expectGET('/Scripts/KPIInfo.json').respond({
+      $httpBackend.expectGET('Scripts/KPIInfo.js').respond({
         "P4PInfoId":1, 
         "ProgramName":"TCM", 
         "KpiId": "TCM-01-01:",

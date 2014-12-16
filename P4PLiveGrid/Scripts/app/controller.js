@@ -2,7 +2,7 @@
 
 ComharNGApp.controller('comharCtrl', ['$scope', '$http',
   function ($scope, $http){
-  $http.get('/Scripts/KPIInfo.json').success(function(data) {
+  $http.get('Scripts/KPIInfo.js').success(function(data) {
     $scope.data = angular.fromJson(data);
   });
 }]);

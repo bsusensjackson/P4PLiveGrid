@@ -15,8 +15,8 @@ $(function () {
   });
 
   var baseUrl = window.location.protocol + '//' + window.location.hostname + "/";
-  var sourceUrl = "/Scripts/encounterDetail.js";
-  var summaryUrl = "/Scripts/summary.js";
+  var sourceUrl = "Scripts/encounterDetail.js";
+  var summaryUrl = "Scripts/summary.js";
   //var summarySourceUrl = baseUrl + "PayForPerformanceWebApi/api/summary"
   //var detailEncounterDetailSourceUrl = baseUrl + "PayForPerformanceWebApi/api/encounterDetail"
 
